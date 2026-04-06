@@ -55,4 +55,4 @@ jobs:
               run: |
                 kubectl apply -f k8s/deployment.yaml
                 kubectl apply -f k8s/service.yaml
-                kubectl rollout status deployment/webapp
+                kubectl rollout status deployment/flask-app
