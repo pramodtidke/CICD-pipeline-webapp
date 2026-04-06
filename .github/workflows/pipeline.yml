@@ -17,9 +17,9 @@ jobs:
 
             # set up python
             - name: python setup
-              uses: actions/setup-python@v3
+              uses: actions/setup-python@v6
               with:
-                python-version: 3.0.0
+                python-version: '3.13' 
 
             # install dependencies
             - name: install dependencies
